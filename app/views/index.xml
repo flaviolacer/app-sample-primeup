@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" top="150">
+			<Label id="label" height="60">Olá, PrimeUp</Label>
+			<Label id="labelName" platform="android">Android!</Label>
+			<Label id="labelName" platform="ios">IOS!</Label>
+			<Button onClick="alertOk">Assert OK</Button>
+			<Button onClick="alertError">Assert Error</Button>
+		</View>
+	</Window>
+</Alloy>
